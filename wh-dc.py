@@ -334,3 +334,44 @@ frutas = {'pera': 10, 'uva': 2, 'maça': 55}
 
 
 
+# a = float(input())
+# b = float(input())
+# c = float(input())
+# d = float(input())
+# e = float(input())
+# f = float(input())
+
+# arr = [a, b, c, d, e, f]
+
+# positivos = []
+# soma = 0
+# for num in arr:
+#     if num >= 0:
+#         positivos.append(num)
+#         soma += num 
+
+# print('{} valores positivos'.format(len(positivos)))
+# print('{:.1f}'.format(soma/len(positivos)))
+
+
+# a = abs(int(input()))
+# b = abs(int(input()))
+# c = abs(int(input()))
+# d = abs(int(input()))
+# e = abs(int(input()))
+
+# arr = [a, b, c, d, e]
+# pares = []
+# for num in arr:
+#     if num % 2 == 0:
+#         pares.append(num)
+
+# print('{} valores pares'.format(len(pares)))
+
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+# e = int(input())
+
