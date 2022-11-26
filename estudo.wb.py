@@ -55,3 +55,15 @@ def remove_more_than_two_repetitions(text: str):
 result = remove_more_than_two_repetitions('Ollloco meuuuu, taaa peegaando fogoo biiiiichooo')
 
 print(result)
+
+x = 'Arroz com feijão e batata frita porra'
+
+# if "a" in x:
+#     print('está aqui porra')
+# else:
+#     print('nã está porra')
+
+my_string = 'ola m5'
+for char in my_string:
+    if char != " ":
+        print(char)
