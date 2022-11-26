@@ -83,6 +83,45 @@ fat1 = my_string2[0:3]
 fat2 = my_string2[3:]
 
 jun = fat1 + ' ' + fat2
+jun_arr = jun.split()
+jun_arr.pop(1)
+jun_arr.insert(0, 'xola')
+# print(jun)
+# print(jun_arr)
 
-print(jun)
-print(jun.split())
+copa = ['BRA', 'FRA', 'ITA', 'SUI', 'MEX']
+
+ita = copa.pop(2)
+
+copa.insert(6, 'ITA')
+# print(copa.pop(0))
+# print(ita)
+# print(copa)
+# sorted(copa)
+# copa.sort()
+# copa.sort(reverse=True)
+
+# print(copa)
+# print(len(copa))
+# print(sorted(copa))
+
+num = [1,2,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9,99,9,10]
+
+# con_set = set(num)
+# lis = list(con_set)
+# ord = sorted(lis)
+# print(ord)
+
+# x = [rep for rep in num]
+# print(x)
+
+# print(max(num, key = num.count))
+# soma = 0
+# for x in num:
+#     soma += x
+# print(soma)
+# arr = []
+# for x in num:
+#     if  x not in arr:
+#         arr.append(x)
+#         print(arr)
