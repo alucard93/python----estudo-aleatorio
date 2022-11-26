@@ -368,6 +368,10 @@ frutas = {'pera': 10, 'uva': 2, 'maça': 55}
 
 # print('{} valores pares'.format(len(pares)))
 
+# par      = 0
+# impar    = 0
+# positivo = 0
+# negativo = 0
 
 # a = int(input())
 # b = int(input())
@@ -375,3 +379,22 @@ frutas = {'pera': 10, 'uva': 2, 'maça': 55}
 # d = int(input())
 # e = int(input())
 
+# arr = [a, b, c, d, e]
+
+# for i in range(len(arr)):
+#     if arr[i] % 2 == 0:
+#         par += 1
+    
+#     elif arr[i] % 2 == 1:
+#         impar += 1
+    
+#     elif arr[i] > 0:
+#         positivo += 1
+    
+#     elif arr[i] < 0:
+#         negativo +=1
+
+# print('{} valor(es) par(es)'.format(par))
+# print('{} valor(es) impar(es)'.format(impar))
+# print('{} valor(es) positivo(s)'.format(positivo))
+# print('{} valor(es) negativo(s)'.format(negativo))
