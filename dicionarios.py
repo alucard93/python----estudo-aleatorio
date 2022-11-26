@@ -13,6 +13,11 @@ os.system('cls')
 
 
 pessoa = {"nome": "José da Silva", "idade": 36, "sexo": "masculino"}
+print(pessoa.keys())
+# for item, valor in pessoa.items():
+#     x = item
+#     y = valor
+#     print('Esse é o x: {} esse é o y: {}'.format(x, y))
 
 # for item in pessoa.keys():
 #     print(item)
@@ -26,9 +31,9 @@ pessoa = {"nome": "José da Silva", "idade": 36, "sexo": "masculino"}
 
 # for chave, valor in pessoa.items():
 #     print(chave, valor)
-lista_1 = ["telefone", "casado", "idade"]
-lista_2 = ["999-999-999", False, 28]
-d1 = dict(nome = 'Kenzinho', cidade = 'Curitiba', modulo = 'M5')
+# lista_1 = ["telefone", "casado", "idade"]
+# lista_2 = ["999-999-999", False, 28]
+# d1 = dict(nome = 'Kenzinho', cidade = 'Curitiba', modulo = 'M5')
 # print(d1)
 # print(type(d1))
 # print(d1.get('nome'))
