@@ -398,3 +398,25 @@ frutas = {'pera': 10, 'uva': 2, 'maça': 55}
 # print('{} valor(es) impar(es)'.format(impar))
 # print('{} valor(es) positivo(s)'.format(positivo))
 # print('{} valor(es) negativo(s)'.format(negativo))
+
+# x = int(input())
+
+# for num in range(1,x+1):
+#     if num % 2 == 1:
+#         print(num)
+
+# x = int(input())
+
+# for num in range(x, x+12):
+#     if num %2 == 1:
+#         print(num)
+
+x = int(input())
+y = int(input())
+
+soma = 0
+
+for i in range (y+1, x):
+    if(i % 2 == 1):
+        soma += i
+print(soma)
