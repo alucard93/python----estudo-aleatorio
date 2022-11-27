@@ -125,3 +125,7 @@ num = [1,2,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9,99,9,10]
 #     if  x not in arr:
 #         arr.append(x)
 #         print(arr)
+
+letras = ['a', 'b', 'c', 'd', 'e']
+
+# print(letras[::-1])
