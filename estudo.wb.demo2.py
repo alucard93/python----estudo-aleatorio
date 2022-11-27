@@ -40,3 +40,20 @@ my_lst_2 = list('uma lista')
 print(my_list)
 # for value, i in enumerate(my_list, 20):
 #     print(value, i)
+
+
+my_dict = {
+    'primeiro': 'Marcus',
+    'segundo': 'Vinicius',
+    'terceiro': 'Nascimento',
+    'quarto': 'Ferreira',
+    'quinto': 'Nicolle',
+
+}
+
+my_petistas = dict(primeiro='nicolle', segundo= 'soares', terceiro = 'correa', quarto = 'de Oliveira')
+# print(my_dict)
+# print(my_petistas)
+
+my_dict.update({'1ª nome': 'Marcus'})
+print(my_dict)
